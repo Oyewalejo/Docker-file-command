@@ -17,7 +17,7 @@ RUN wget https://github.com/craigabel4eva/grayscale-site/archive/refs/heads/main
 RUN unzip main.zip
 
 # copy files into html directory
-RUN cp -r grayscale-site/* /var/www/html/
+RUN cp -r grayscale-site-main/* /var/www/html/
 
 # remove unwanted folder
 RUN rm -rf grayscale-site-main main.zip
